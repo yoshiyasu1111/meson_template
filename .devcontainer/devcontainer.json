@@ -1,0 +1,10 @@
+{
+    "name": "meson",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "meson",
+    "workspaceFolder": "/work",
+	"remoteUser": "mesonuser",
+	"extensions": [
+		"ms-vscode.cpptools-extension-pack"
+	]
+}

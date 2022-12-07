@@ -1,0 +1,14 @@
+version: '3'
+services:
+
+  meson:
+    image: meson
+    container_name: meson
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ${PWD}:/work
+    working_dir: /work
+    tty: true
+    command: /bin/bash
